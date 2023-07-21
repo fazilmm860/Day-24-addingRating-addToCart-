@@ -1,6 +1,9 @@
 import React from 'react'
+
+
 import "../App"
 function Navigation() {
+    
   return (
     <div>
          <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -12,7 +15,7 @@ function Navigation() {
                         <li className="nav-item"><a className="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li className="nav-item"><a className="nav-link" href="#!">About</a></li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <button className="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</button>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a className="dropdown-item" href="#!">All Products</a></li>
                                 <li><hr className="dropdown-divider" /></li>
@@ -25,7 +28,7 @@ function Navigation() {
                         <button className="btn btn-outline-dark" type="submit">
                             <i className="bi-cart-fill me-1"></i>
                             Cart
-                            <span className="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                            <span className="badge bg-dark text-white ms-1 rounded-pill"></span>
                         </button>
                     </form>
                 </div>
